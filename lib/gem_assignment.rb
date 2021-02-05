@@ -50,7 +50,7 @@ module GemAssignment
 
       name.each do |short_name|
         url = "https://www.set.or.th#{short_name.attributes['href'].value}"
-        req(url)
+        self.req(url)
       end
     end
 

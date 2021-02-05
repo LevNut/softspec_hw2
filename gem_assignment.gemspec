@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["teeranut.s@ku.th"]
 
   spec.summary       = %q{SET stocks data reader}
-  spec.description   = %q{A ruby script which it will represent all the data of SET stocks company name and total assets}
+  spec.description   = %q{A ruby script which it will represent all the data of SET stocks company name and total assets Name: Teeranut Sawanyawat, ID: 6210545491}
   spec.homepage      = "https://github.com/LevNut/softspec_hw2"
   spec.license       = "MIT"
 
@@ -38,4 +38,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.17"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "minitest", "~> 5.0"
+  spec.add_dependency "httparty", "~> 0.18.1"
+  spec.add_dependency "nokogiri", "~> 1.11.1"
 end
